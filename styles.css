@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: black;
+    font-size: 18px;
+    
+
+}
+.form{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.titulo{
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+   
+}
+.img    {
+    width:10% ;
+    
+}
+
+.login{
+    
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    border-color: aliceblue;
+
+}
+.botao {
+    margin: 20px;
+    width: 20%;
+    border-radius: 10px;
+    height: 45px;
+    color: aliceblue;
+    background-color: rgb(0, 110, 18) ;
+    padding: 0;
+}
+.botao:hover{
+    background-color: rgb(0, 255, 0);
+    transform: scale(1.10);
+    
+}
+.label {
+    padding: 15px;
+    text-align: left;
+    width: 48%;
+    
+}
+.email{
+    height: 45px;
+   border-radius: 10px;
+   width: 50%;
+   color: black ;
+   background-color: aliceblue
+}
+.senha{
+    height: 45px;
+   border-radius: 10px;
+   width: 50%;
+   background-color: aliceblue;
+   color: black;
+}
+::placeholder{
+    color: black;
+    padding: 80px;
+}
